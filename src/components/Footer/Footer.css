@@ -1,0 +1,109 @@
+.footerContainer{
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    margin-top:13%;
+    /* bottom: -50%; */
+    /* border: 2px solid greenyellow; */
+    background-color: #35323e;
+}
+.footerContainer .mainContaner{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    display: flex;
+}
+.mainContaner .footer-logo span{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+.mainContaner ul{
+    position: absolute;
+    top: 5%;
+    color: #ffffff;
+    list-style: none;
+}
+.mainContaner li{
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top: 10%;
+
+}
+.mainContaner .features{
+    position: absolute;
+    left: 30%;
+}
+.mainContaner .resources{
+    position: absolute;
+    left: 50%;
+}
+.mainContaner .company{
+    position: absolute;
+    left: 68%;
+}
+.mainContaner .social{
+    position: absolute;
+    right: 10%;
+    display: flex;
+
+}
+.mainContaner .social li{
+    margin-left: 20%;
+}
+@media screen and (max-width:375px) {
+    .footerContainer{
+        position: absolute;
+        top: 352%;
+        z-index: 999;
+        height: 70vh;
+    }
+    .footerContainer .mainContaner{
+        position: relative;
+        top: 5%;
+        left: 10%;
+        height: 75%;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* display: table; */
+    }
+
+    .mainContaner .features{
+        position: absolute;
+        left: 38%;
+        top: 20%;
+        text-align: center;
+    }
+    .mainContaner .resources{
+        position: absolute;
+        left: 38%;
+        top: 50%;
+        text-align: center;
+
+    }
+    .mainContaner .company{
+        position: absolute;
+        left: 38%;
+        top: 80%;
+        text-align: center;
+
+    }
+    .mainContaner .social{
+        position: absolute;
+        left: 8%;
+        top: 105%;
+        display: flex;
+
+    }
+    .mainContaner .social li{
+        margin-left: 12%;
+    }
+
+}
+

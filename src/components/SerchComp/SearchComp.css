@@ -1,0 +1,151 @@
+.SearchComp-container {
+    height: 80px;
+    width: 80%;
+    background-color: #3b3054;
+    margin-left: 10%;
+    margin-top: -3%;
+    border-radius: 7px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+
+    z-index: 5;
+  }
+  .SearchComp-container input{
+    padding: 2%;
+    font-size: .8rem;
+  }
+
+  .SearchComp-container .Search {
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 80%;
+    margin-left: 2%;
+    border-radius: 5px;
+  }
+
+  .SearchComp-container .btn {
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 11%;
+    border-radius: 5px;
+    background-color: #2acfcf;
+    color: #fff;
+    margin-right: 2%;
+  }
+  .heading{
+    font-weight: 700;
+    font-size: 2rem
+  }
+
+  .Item2-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #bfbfbf;
+    position: absolute;
+
+    /* top: 0%; */
+    z-index: 0;
+  }
+  hr{
+    height: 1%;
+    background-color: #2acfcf;
+    margin-top: -37px;
+    width: 50%;
+    margin-left: 25%;
+    outline: none;
+    border: none;
+  }
+
+  .Item2-container .Item2-Main {
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 20%;
+  }
+
+  .Item2-Main .title {
+    min-width: 35%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Item2-container .Item2-Body {
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    height: 58%;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    display: flex;
+  }
+  .addsubheading{
+    width: 80%;
+  }
+  @media (max-width: 375px) {
+    .SearchComp-container {
+      flex-direction: column;
+      height: 100px;
+    }
+
+    .SearchComp-container .Search {
+      height: 35px;
+      width: 80%;
+    }
+
+    .SearchComp-container .btn {
+      height: 35px;
+      width: 80%;
+    }
+
+    .Item2-Main .title {
+      /* border: 1px solid green; */
+      top: -15%;
+      width: 73vw;
+    }
+    .Item2-container .Item2-Body {
+      /* border: 1px solid green; */
+      top: 20%;
+    }
+
+    .Item2-Main .title .heading {
+      margin-top: 3vh;
+      font-size: 1.5rem;
+    }
+    .Item2-Main .title p {
+      font-size: 16px;
+    }
+
+    .Item2-container .Item2-Body {
+      flex-direction: column;
+    }
+
+    .Item2-container {
+      height: 257vh;
+    }
+    hr{
+      transform: rotate(
+        -90deg
+        );
+            height: 5px;
+            background-color: #2acfcf;
+            margin-top: -215px;
+            width: 196%;
+            margin-left: -47%;
+            outline: none;
+            border: none;
+    }
+  }

@@ -1,0 +1,97 @@
+.homeContainer{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.workingImg{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+.workingImg img{
+
+    position: absolute;
+    height: 80%;
+    width: -50%;
+    top: 10%;
+}
+.mainHeading{
+    position: relative;
+    top: 15%;
+    left: 20%;
+    width: 38%;
+    height: 164%;
+}
+.subHeading{
+    margin-top: 3%;
+    width: 76%;
+}
+.mainHeading span{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.mainHeading p{
+    color: #9e9aa7;
+}
+.mainHeading button{
+    position: absolute;
+    top: 28%;
+    background-color: #2acfcf;
+    padding: 3% 10%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+@media screen and (max-width:375px) {
+    .homeContainer{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .workingImg{
+        position: absolute;
+        height: 60%;
+        width: 100%;
+    }
+    .workingImg img{
+        width: 140%;
+        height: 80%;
+        overflow:visible;
+
+    }
+    .mainHeading{
+        position: absolute;
+        top: 60%;
+    }
+    .mainHeading span{
+        font-size: 2.5rem;
+        margin-left: -8%;
+    }
+    .mainHeading p{
+        margin-top: 10px;
+        margin-left: -5%;
+    }
+    .mainHeading button{
+        position: absolute;
+        top: 110%;
+        /* left: 2%; */
+        width: 80%;
+        background-color: #2acfcf;
+        padding: 5% 10%;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: 10vh;
+    }
+
+}
